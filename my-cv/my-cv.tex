@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('letterpaper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
 
 % temas de moderncv
 \moderncvstyle{classic}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
@@ -68,7 +68,7 @@
 
 \section{Research Experience}
 \cventry{May 2017-}{Research Assistant}
-{\newline VML Lab}{Simon Fraser University}{Advisor: Prof.Greg Mori}
+{\newline \href{http://vml.cs.sfu.ca/}{VML Lab}}{Simon Fraser University}{Advisor: \href{http://www.cs.sfu.ca/~mori/}{Prof.Greg Mori}}
 {Research in computer vision and deep learning%
 \begin{itemize}%
 \item Researched on the analysis and prediction of human activity, and also on generative models for generating controllable images
@@ -83,10 +83,10 @@
 %    \end{itemize}
 %  \item Sub-logro (c);
 %  \end{itemize}
-\item Extracted pose sequences for \textit{Volleyball Dataset}, which is a common dataset for group activity recognition.
+\item Extracted pose sequences for \textit{Volleyball Dataset}, which is a common dataset for group activity recognition
 \end{itemize}}
 
-\cventry{Sept 2017-}{Research Assistant}{\newline Big Data Research Project}{Simon Fraser University}{Advisor: Prof.Ryan Shea}
+\cventry{Sept 2017-}{Research Assistant}{\newline Big Data Research Project}{Simon Fraser University}{Advisor: \href{https://sfucloud.ca/ryan/index.php/about/}{Prof.Ryan Shea}}
 {Research in distributed computing system integrated with computer vision%
 \begin{itemize}%
 \item Built up a distributed computing system for large-scale video processing based on Spark Streaming, FFMPEG, OpenCV
@@ -100,13 +100,13 @@
 \cventry{Dec 2017}{ Learning to Forecast Videos of Human Activity with Multi-granularity Models and Adaptive
 Rendering}
 {}
-{\newline Mengyao Zhai, \underline{Jiacheng Chen}, Ruizhi Deng, Ligeng Zhu, Lei Chen and Greg Mori}
-{\newline ArXiv Preprint}
-{A hierarchical framework for forecasting complex human videos}
+{\newline \href{https://mzhai.weebly.com/}{Mengyao Zhai}, \underline{\href{http://jcchen.me/}{Jiacheng Chen}}, \href{http://www.sfu.ca/~ruizhid/}{Ruizhi Deng}, \href{https://lzhu.me/}{Ligeng Zhu}, Lei Chen and \href{http://www.cs.sfu.ca/~mori/}{Greg Mori}}
+{\newline \href{https://arxiv.org/abs/1712.01955}{ArXiv Preprint}}
+{Proposed a hierarchical framework for forecasting complex human videos}
 
 \section{Honours and Awards}
 \cventry{2017}{Meritorious Prize}
-{Mathematical Contest in Modeling(MCM)}
+{\href{https://www.comap.com/undergraduate/contests/mcm/}{Mathematical Contest in Modeling(MCM)}}
 {}
 {}
 {
@@ -129,69 +129,63 @@ Rendering}
 
 \section{Selected Projects}
 
-\cventry{April 2017}{Action Recognition Exploration}{\textit{Github link}}{}{}
+\cventry{April 2017}{Action Recognition Exploration}{\textit{\href{https://github.com/woodfrog/ActionRecognition}{Github link}}}{}{}
 {%
 \begin{itemize}%
-\item Implemented an intelligent deep-learning-based human action recognizer which can be accessed from browser to recognize the videos from local files
+\item Explored and Implemented a bunch of popular deep-learning-based human action recognition models including two-stream CNN(RGB and Optical Flow), C3D, LRCN, etc.
 %
-\item Used Tensorflow to build a two-stream neural network for high-accuracy recognition as part of the backend of the app
+\item Implemented a Web app in which local and online videos can be imported and recognized.
 \end{itemize}
 }
 
-\cventry{Dec 2016}{Intelligent Vegetable Classifier}{}{}{}
+\cventry{Dec 2016}{Color-Consistent Vegetable Classifier}{}{}{}
 {%
 \begin{itemize}%
-\item Created an intelligent classifier based on state-of-art convolutional neural network to identify among 50 different kinds of fruits and vegetables with over 50\% top-1 accuracy%
-\item Referred to several related papers on color constancy and applied a special preprocessing technique to enhance the model?s stability under different light environments
+\item Trained a CNN classifier based on pre-trained ResNet-50 model for identifying among 50 different kinds of fruits and vegetables with over 60\% top-1 accuracy%
+\item Applied a logarithmic preprocessing technique to enhance the model's stability under different light environments
 \item Implemented a web application for the classifier with Django to make it both accessible for desktop and mobile users
 \end{itemize}
 }
 
-\cventry{Oct 2016}{Basic Shell}{\textit{Github link}}{}{}
+\cventry{Oct 2016}{Basic Shell}{\textit{\href{https://github.com/woodfrog/my_shell}{Github link}}}{}{}
 {%
 \begin{itemize}%
-\item Created a shell with C and system calls to simulate the performance of bash%
-\item Implemented pipe using inter-process communication to make the shell support more complex and integrated commands
-\item Achieved functionality of job control by dealing with internal signals and enabled users to manage their tasks easily and efficiently
+\item Implemented a shell(for Linux) with C and system calls which simulates the functionality of bash%
+\item Implemented pipe using inter-process communication to make the shell support complex and integrated commands
+%\item  the feature of job control by handling internal signals and enabled users to manage tasks easily and efficiently
 \end{itemize}
 }
 
 
-\cventry{Sept 2016}{SFU Wechat Assistant}{\textit{Github link}}{}{}
+\cventry{Sept 2016}{SFU Wechat Assistant}{\textit{\href{https://github.com/woodfrog/wechat_sfu}{Github link}}}{}{}
 {%
 \begin{itemize}%
-\item Built an Wechat assistant cooperated with another developer for reporting SFU calendar automatically by sending notifications about courses and events%
-\item Deployed the assistant on our VPS so that it can be used by anyone who subscribes our corresponding public Wechat account
+\item Built up a Wechat intelligent assistant for reporting SFU calendar automatically by sending notifications about classes and other important events%
+\item Deployed the assistant on our VPS and made it accessible to everyone who subscribes our public Wechat account
 \end{itemize}
 }
 
-\cventry{June 2016}{MiniSQL}{\textit{Github link}}{}{}
+\cventry{June 2016}{MiniSQL}{\textit{\href{https://github.com/endvroy/minisql}{Github link}}}{}{}
 {%
 \begin{itemize}%
-\item Designed a mini database system using Python with a group of three and successfully passed MySQL-based test cases
+\item Designed a mini database system using Python and successfully passed MySQL-based test cases
 %
-\item Applied unittest on core modules with automatic testing tools to guarantee high quality of the code
+\item Conducted unit test on core modules with automatic testing tools to maintain the quality of the code
 %
 \item Implemented a SQL interpreter with PLY and Backus Normal Form to parse SQL language
 %
-\item Implemented record manager with efficient data structures to manipulate massive conversion between database records and binary data efficiently
+%\item Implemented record manager to manipulate massive conversion between database records and binary data efficiently
 \end{itemize}
 }
 
-\cventry{Feb 2016}{FPGA Greedy Snake Game}{\textit{Github link}}{}{}
+\cventry{Feb 2016}{FPGA Greedy Snake Game}{}{}{}
 {%
 \begin{itemize}%
-\item Implemented the classic snake game on FPGA with Verilog HDL and enabled players to play it on any device with VGA port%
+\item Implemented the classic greedy snake game on FPGA using Verilog HDL%
 \item Created different patterns by plotting bitmaps to prettify the game with the theme of Pac-Man
-\item Designed algorithm based on geometrical principles to keep the shape of snake while moving and rotating
+\item Designed algorithms based on geometrical principles for controlling the shape of snake while moving and rotating
 \end{itemize}
 }
-
-
-
-
-
-
 
 
 %\cvitem{hobby 1}{Descripci\'on}
