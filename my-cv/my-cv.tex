@@ -10,7 +10,7 @@
 
 % temas de moderncv
 \moderncvstyle{classic}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
-\moderncvcolor{blue}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+\moderncvcolor{purple}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
 %\renewcommand{\familydefault}{\sfdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
 %\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
 
@@ -25,7 +25,7 @@
 % datos personales
 \name{Jiacheng(Jaycee)}{Chen}
 % \title{T\'itulo del CV (opcional)}                   % dato opcional, elimine la linea si no desea el dato
-% \address{calle y n\'umero}{c\'odigo postal y ciudad} % dato opcional, elimine la linea si no desea el dato
+%\address{8888 University Drive}{Burnaby, B.C. Canada} % dato opcional, elimine la linea si no desea el dato
 \phone[mobile]{+1~(778)~885~7227}                     % dato opcional, elimine la linea si no desea el dato
 % \phone[fixed]{+2~(345)~678~901}                      % dato opcional, elimine la linea si no desea el dato
 % \phone[fax]{+3~(456)~789~012}                       % dato opcional, elimine la linea si no desea el dato
@@ -50,6 +50,11 @@
 %\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
 \maketitle
 
+\section{Overview}
+\cvitem{-}{Solid programming skills in \textbf{C/C++}, \textbf{Python} with rich project experience}
+\cvitem{-}{Deep interest in computer vision and distributed computing, familiar with deep learning frameworks \textbf{Tensorflow}, \textbf{Pytorch} and distributed frameworks \textbf{Hadoop}, \textbf{Spark}}
+\cvitem{-}{Rich experience with common tools including \textbf{Git}, \textbf{Latex}, \textbf{Matlab}, etc.}
+
 \section{Education}
 \cventry{2016-Present}{Simon Fraser University}{Bunarby}{BC}{Canada}
 	{B.Sc in Computing Science, Dual Degree Program, GPA: 4.17/4.33}  % Los argumentos del 3 al 6 pueden permanecer vacios
@@ -62,42 +67,136 @@
 %\cvitem{descripci\'on}{Una breve descripci\'on de la tesis}
 
 \section{Research Experience}
-\subsection{Vocacional}
-\cventry{a\~no--a\~no}{t\'itulo del puesto}{Empleador}{Ciudad}{}{Descripci\'on general, no m\'as de 1 \'o 2 l\'ineas.\newline{}%
-Detalle de logros:%
+\cventry{May 2017-}{Research Assistant}
+{\newline VML Lab}{Simon Fraser University}{Advisor: Prof.Greg Mori}
+{Research in computer vision and deep learning%
 \begin{itemize}%
-\item Logro 1;
-\item Logro 2, con sub-logros:
-  \begin{itemize}%
-  \item Sub-logro (a);
-  \item Sub-logro (b), con sub-sub-logros (¡evite hacer esto!);
-    \begin{itemize}
-    \item Sub-sub-logro i;
-    \item Sub-sub-logro ii;
-    \item Sub-sub-logro iii;
-    \end{itemize}
-  \item Sub-logro (c);
-  \end{itemize}
-\item Logro 3.
+\item Researched on the analysis and prediction of human activity, and also on generative models for generating controllable images
+\item Designed and implemented a framework for multi-person future forecasting and applied it on complex sports forecasting
+%  \begin{itemize}%
+%  \item Sub-logro (a);
+%  \item Sub-logro (b), con sub-sub-logros (¡evite hacer esto!);
+%    \begin{itemize}
+%    \item Sub-sub-logro i;
+%    \item Sub-sub-logro ii;
+%    \item Sub-sub-logro iii;
+%    \end{itemize}
+%  \item Sub-logro (c);
+%  \end{itemize}
+\item Extracted pose sequences for \textit{Volleyball Dataset}, which is a common dataset for group activity recognition.
 \end{itemize}}
-\cventry{a\~no--a\~no}{t\'itulo del puesto}{Empleador}{Ciudad}{}{Descripci\'on l\'inea 1\newline{}Descripci\'on l\'inea 2}
-\subsection{Miscel\'aneo}
-\cventry{a\~no--a\~no}{t\'itulo del puesto}{Empleador}{Ciudad}{}{Descripci\'on}
+
+\cventry{Sept 2017-}{Research Assistant}{\newline Big Data Research Project}{Simon Fraser University}{Advisor: Prof.Ryan Shea}
+{Research in distributed computing system integrated with computer vision%
+\begin{itemize}%
+\item Built up a distributed computing system for large-scale video processing based on Spark Streaming, FFMPEG, OpenCV
+\item Analyzed the efficiency and energy performance of proposed system on SFU Cloud?s 8-node cluster
+\item Deployed our scalable system on SFU Cloud cluster in Burnaby campus for real-time vehicle monitoring
+\end{itemize}
+}
+
 
 \section{Publication and Manuscript}
-\cvitemwithcomment{Idioma 1}{nivel}{Comentario}
-\cvitemwithcomment{Idioma 2}{nivel}{Comentario}
-\cvitemwithcomment{Idioma 3}{nivel}{Comentario}
+\cventry{Dec 2017}{ Learning to Forecast Videos of Human Activity with Multi-granularity Models and Adaptive
+Rendering}
+{}
+{\newline Mengyao Zhai, \underline{Jiacheng Chen}, Ruizhi Deng, Ligeng Zhu, Lei Chen and Greg Mori}
+{\newline ArXiv Preprint}
+{A hierarchical framework for forecasting complex human videos}
 
 \section{Honours and Awards}
-\cvdoubleitem{categor\'ia 1}{XXX, YYY, ZZZ}{categor\'ia 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{categor\'ia 2}{XXX, YYY, ZZZ}{categor\'ia 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{categor\'ia 3}{XXX, YYY, ZZZ}{categor\'ia 6}{XXX, YYY, ZZZ}
+\cventry{2017}{Meritorious Prize}
+{Mathematical Contest in Modeling(MCM)}
+{}
+{}
+{
+\begin{itemize}
+\item Top 7\% in all participants of the competition
+\item Implemented a Cellular Automata for simulating and analyzing highway traffic flow
+\end{itemize}}
+
+\cventry{2017}{First Class Entrance Scholarship}
+{Simon Fraser University}
+{}
+{}
+{The scholarship rewards top 10\% students in SFU-ZJU Dual Degree Program}
+
+\cventry{2016}{First Prize Academic Scholarship}
+{Zhejiang University}
+{}
+{}
+{The scholarship rewards the top 5\% student according to academic behavior}
 
 \section{Selected Projects}
-\cvitem{hobby 1}{Descripci\'on}
-\cvitem{hobby 2}{Descripci\'on}
-\cvitem{hobby 3}{Descripci\'on}
+
+\cventry{April 2017}{Action Recognition Exploration}{\textit{Github link}}{}{}
+{%
+\begin{itemize}%
+\item Implemented an intelligent deep-learning-based human action recognizer which can be accessed from browser to recognize the videos from local files
+%
+\item Used Tensorflow to build a two-stream neural network for high-accuracy recognition as part of the backend of the app
+\end{itemize}
+}
+
+\cventry{Dec 2016}{Intelligent Vegetable Classifier}{}{}{}
+{%
+\begin{itemize}%
+\item Created an intelligent classifier based on state-of-art convolutional neural network to identify among 50 different kinds of fruits and vegetables with over 50\% top-1 accuracy%
+\item Referred to several related papers on color constancy and applied a special preprocessing technique to enhance the model?s stability under different light environments
+\item Implemented a web application for the classifier with Django to make it both accessible for desktop and mobile users
+\end{itemize}
+}
+
+\cventry{Oct 2016}{Basic Shell}{\textit{Github link}}{}{}
+{%
+\begin{itemize}%
+\item Created a shell with C and system calls to simulate the performance of bash%
+\item Implemented pipe using inter-process communication to make the shell support more complex and integrated commands
+\item Achieved functionality of job control by dealing with internal signals and enabled users to manage their tasks easily and efficiently
+\end{itemize}
+}
+
+
+\cventry{Sept 2016}{SFU Wechat Assistant}{\textit{Github link}}{}{}
+{%
+\begin{itemize}%
+\item Built an Wechat assistant cooperated with another developer for reporting SFU calendar automatically by sending notifications about courses and events%
+\item Deployed the assistant on our VPS so that it can be used by anyone who subscribes our corresponding public Wechat account
+\end{itemize}
+}
+
+\cventry{June 2016}{MiniSQL}{\textit{Github link}}{}{}
+{%
+\begin{itemize}%
+\item Designed a mini database system using Python with a group of three and successfully passed MySQL-based test cases
+%
+\item Applied unittest on core modules with automatic testing tools to guarantee high quality of the code
+%
+\item Implemented a SQL interpreter with PLY and Backus Normal Form to parse SQL language
+%
+\item Implemented record manager with efficient data structures to manipulate massive conversion between database records and binary data efficiently
+\end{itemize}
+}
+
+\cventry{Feb 2016}{FPGA Greedy Snake Game}{\textit{Github link}}{}{}
+{%
+\begin{itemize}%
+\item Implemented the classic snake game on FPGA with Verilog HDL and enabled players to play it on any device with VGA port%
+\item Created different patterns by plotting bitmaps to prettify the game with the theme of Pac-Man
+\item Designed algorithm based on geometrical principles to keep the shape of snake while moving and rotating
+\end{itemize}
+}
+
+
+
+
+
+
+
+
+%\cvitem{hobby 1}{Descripci\'on}
+%\cvitem{hobby 2}{Descripci\'on}
+%\cvitem{hobby 3}{Descripci\'on}
 
 \renewcommand{\listitemsymbol}{-~}            % para cambiar el simbolo para las listas
 
