@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 JAN 2018 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2018 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -10,8 +10,8 @@ Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter d
 ocument class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
@@ -900,23 +900,23 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(74.68848pt, 448.1309pt, 74.68849pt)
-* v-part:(T,H,B)=(84.50467pt, 633.78513pt, 126.75705pt)
+* h-part:(L,W,R)=(53.77351pt, 489.96083pt, 53.77353pt)
+* v-part:(T,H,B)=(60.84088pt, 692.9446pt, 91.26137pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=448.1309pt
-* \textheight=633.78513pt
-* \oddsidemargin=2.41849pt
-* \evensidemargin=2.41849pt
-* \topmargin=-24.76532pt
+* \textwidth=489.96083pt
+* \textheight=692.9446pt
+* \oddsidemargin=-18.49648pt
+* \evensidemargin=-18.49648pt
+* \topmargin=-48.42911pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -968,11 +968,11 @@ LaTeX Font Info:    Try loading font information for OMX+lmex on input line 52.
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 52.
+(Font)              <10.95> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <8> on input line 52.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <6> on input line 52.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -987,35 +987,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 53.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 87.
+(Font)              <12> on input line 53.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 88.
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 139.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
 
 No file my-cv.bbl.
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 213.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 213.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (./my-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 213.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 213.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `my-cv.out' has not changed.
 (rerunfilecheck)             Checksum: EDF162D38DA41147CDAB59BDE27DAB00;761.
  ) 
 Here is how much of TeX's memory you used:
- 28190 strings out of 493014
- 523062 string characters out of 6133351
- 582554 words of memory out of 5000000
- 31308 multiletter control sequences out of 15000+600000
- 61807 words of font info for 73 fonts, out of 8000000 for 9000
+ 28172 strings out of 493014
+ 522757 string characters out of 6133351
+ 582604 words of memory out of 5000000
+ 31292 multiletter control sequences out of 15000+600000
+ 54744 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,12n,58p,10357b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
@@ -1023,12 +1019,13 @@ texlive/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmsso10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/marv
-osym/marvosym.pfb>
-Output written on my-cv.pdf (2 pages, 137538 bytes).
+blic/lm/lmsso10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
+msso12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/marvosym/marv
+osym.pfb>
+Output written on my-cv.pdf (2 pages, 164339 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
- 18493 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17469 words of extra memory for PDF output out of 20736 (max. 10000000)
 

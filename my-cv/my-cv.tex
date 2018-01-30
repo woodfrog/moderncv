@@ -6,7 +6,7 @@
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('letterpaper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+\documentclass[12pt,a4paper,sans]{moderncv}   % opciones posibles incluyen tamaño de fuente ('10pt', '11pt' and '12pt'), tamaño de papel ('letterpaper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
 
 % temas de moderncv
 \moderncvstyle{classic}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
 
 % ajustes para los margenes de pagina
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.82]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
 
 % datos personales
@@ -71,7 +71,8 @@
 {\newline \href{http://vml.cs.sfu.ca/}{VML Lab}}{Simon Fraser University}{Advisor: \href{http://www.cs.sfu.ca/~mori/}{Prof.Greg Mori}}
 {Research in computer vision and deep learning%
 \begin{itemize}%
-\item Researched on the analysis and prediction of human activity, and also on generative models for generating controllable images
+\item Researched on video analysis, especially human action analysis including human trajectory and human pose
+\item Researched on the forecasting of human activity, and also on generative models for generating controllable images
 \item Designed and implemented a framework for multi-person future forecasting and applied it on complex sports forecasting
 %  \begin{itemize}%
 %  \item Sub-logro (a);
@@ -89,9 +90,10 @@
 \cventry{Sept 2017-}{Research Assistant}{\newline Big Data Research Project}{Simon Fraser University}{Advisor: \href{https://sfucloud.ca/ryan/index.php/about/}{Prof.Ryan Shea}}
 {Research in distributed computing system integrated with computer vision%
 \begin{itemize}%
-\item Built up a distributed computing system for large-scale video processing based on Spark Streaming, FFMPEG, OpenCV
-\item Analyzed the efficiency and energy performance of proposed system on SFU Cloud?s 8-node cluster
-\item Deployed our scalable system on SFU Cloud cluster in Burnaby campus for real-time vehicle monitoring
+\item Designed a distributed and general-case visual computing system for large-scale line-rate video processing based on Spark Streaming, FFMPEG, and OpenCV
+\item Implemented and deployed the proposed visual computing system on SFU Cloud
+% \item Analyzed the efficiency and energy performance of proposed system
+\item Applied our scalable system to real-time vehicle monitoring taking use of SSD detector, which monitors cars and buses entering SFU Burnaby campus 
 \end{itemize}
 }
 
