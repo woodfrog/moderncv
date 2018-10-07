@@ -23,7 +23,7 @@
 %\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
 
 % datos personales
-\name{Jiacheng(Jaycee)}{Chen}
+\name{Jiacheng}{Chen}
 % \title{T\'itulo del CV (opcional)}                   % dato opcional, elimine la linea si no desea el dato
 %\address{8888 University Drive}{Burnaby, B.C. Canada} % dato opcional, elimine la linea si no desea el dato
 \phone[mobile]{+1~(778)~885~7227}                     % dato opcional, elimine la linea si no desea el dato
@@ -50,11 +50,6 @@
 %\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
 \maketitle
 
-\section{Overview}
-\cvitem{-}{Solid programming skills in \textbf{C/C++}, \textbf{Python} with rich project experience}
-\cvitem{-}{Deep interest in computer vision and distributed computing, familiar with deep learning frameworks \textbf{Tensorflow}, \textbf{Pytorch} and distributed frameworks \textbf{Hadoop}, \textbf{Spark}}
-\cvitem{-}{Rich experience with common tools including \textbf{Git}, \textbf{Latex}, \textbf{Matlab}, etc.}
-
 \section{Education}
 \cventry{2016-Present}{Simon Fraser University}{Bunarby}{BC}{Canada}
 	{B.Sc in Computing Science, Dual Degree Program, GPA: 4.17/4.33}  % Los argumentos del 3 al 6 pueden permanecer vacios
@@ -66,45 +61,84 @@
 %\cvitem{sinodares}{Sinodales}
 %\cvitem{descripci\'on}{Una breve descripci\'on de la tesis}
 
-\section{Research Experience}
-\cventry{May 2017-}{Research Assistant}
-{\newline \href{http://vml.cs.sfu.ca/}{VML Lab}}{Simon Fraser University}{Advisor: \href{http://www.cs.sfu.ca/~mori/}{Prof.Greg Mori}}
-{Research in computer vision and deep learning%
-\begin{itemize}%
-\item Researched on video analysis, especially human action analysis including human trajectory and human pose
-\item Researched on the forecasting of human activity, and also on generative models for generating controllable images
-\item Designed and implemented a framework for multi-person future forecasting and applied it on complex sports forecasting
-%  \begin{itemize}%
-%  \item Sub-logro (a);
-%  \item Sub-logro (b), con sub-sub-logros (¡evite hacer esto!);
-%    \begin{itemize}
-%    \item Sub-sub-logro i;
-%    \item Sub-sub-logro ii;
-%    \item Sub-sub-logro iii;
-%    \end{itemize}
-%  \item Sub-logro (c);
-%  \end{itemize}
-\item Extracted pose sequences for \textit{Volleyball Dataset}, which is a common dataset for group activity recognition
-\end{itemize}}
+\section{Publication and Preprints}
 
-\cventry{Sept 2017-}{Research Assistant}{\newline Big Data Research Project}{Simon Fraser University}{Advisor: \href{https://sfucloud.ca/ryan/index.php/about/}{Prof.Ryan Shea}}
-{Research in distributed computing system integrated with computer vision%
-\begin{itemize}%
-\item Designed a distributed and general-case visual computing system for large-scale line-rate video processing based on Spark Streaming, FFMPEG, and OpenCV
-\item Implemented and deployed the proposed visual computing system on SFU Cloud
-% \item Analyzed the efficiency and energy performance of proposed system
-\item Applied our scalable system to real-time vehicle monitoring taking use of SSD detector, which monitors cars and buses entering SFU Burnaby campus 
-\end{itemize}
-}
+\cventry{2018}{Probabilistic Neural Programmed Networks for Scene Generation}
+{}
+{\newline \href{http://www.cs.sfu.ca/~zhiweid/}{Zhiwei Deng}, \underline{\href{http://jcchen.me/}{Jiacheng Chen}}, {Yifang Fu}, \href{http://www.cs.sfu.ca/~mori/}{Greg Mori}}
+{\newline \href{}{NIPS'2018 (spotlight)}}
+{}
+
+%%%%%
+
+\cventry{2018}{Adaptive Appearance Rendering}
+{}
+{\newline \href{https://mzhai.weebly.com/}{MengyaoZhai}, \href{http://www.sfu.ca/~ruizhid/}{Ruizhi Deng},\underline{\href{http://jcchen.me/}{Jiacheng Chen}}, {Lei Chen}, \href{http://www.cs.sfu.ca/~zhiweid/}{Zhiwei Deng}, \href{http://www.cs.sfu.ca/~mori/}{Greg Mori}}
+{\newline \href{}{BMVC'2018}}
+{}
+
+%%%%%
+
+\cventry{2018}{Scalable Distributed Visual Computing for Line-Rate Video Streams}
+{}
+{\newline \href{https://songc.me/}{Chen Song*}, \underline{\href{http://jcchen.me/}{Jiacheng Chen*}}, {Ryan Shea}, {Andy Sun}, {Jiangchuan Liu}}
+{\newline \href{}{ACM MMSys'18}}
+{}
+
+%%%%%
 
 
-\section{Publication and Manuscript}
-\cventry{Dec 2017}{ Learning to Forecast Videos of Human Activity with Multi-granularity Models and Adaptive
+\cventry{2017}{ Learning to Forecast Videos of Human Activity with Multi-granularity Models and Adaptive
 Rendering}
 {}
 {\newline \href{https://mzhai.weebly.com/}{Mengyao Zhai}, \underline{\href{http://jcchen.me/}{Jiacheng Chen}}, \href{http://www.sfu.ca/~ruizhid/}{Ruizhi Deng}, \href{https://lzhu.me/}{Ligeng Zhu}, Lei Chen and \href{http://www.cs.sfu.ca/~mori/}{Greg Mori}}
-{\newline \href{https://arxiv.org/abs/1712.01955}{ArXiv Preprint}}
-{Proposed a hierarchical framework for forecasting complex human videos}
+{\newline \href{}{ArXiv Preprint}}
+{}
+
+
+%%%% Research Experience
+
+
+\section{Research Experience}
+
+\cventry{June 2018-}{Research Assistant}
+{\newline \href{http://vml.cs.sfu.ca/}{VML Lab}}{Simon Fraser University}{Advisor: \href{http://www.cs.sfu.ca/~furukawa/}{Prof.Yasutaka Furukawa}}
+{Research on indoor reconstruction and scene understanding}
+
+
+\cventry{May 2017-}{Research Assistant}
+{\newline \href{http://vml.cs.sfu.ca/}{VML Lab}}{Simon Fraser University}{Advisor: \href{http://www.cs.sfu.ca/~mori/}{Prof.Greg Mori}}
+{Research on generative models, image/video understanding and synthesize%
+%\begin{itemize}%
+%\item Researched on video analysis, especially human action analysis including human trajectory and human pose
+%\item Researched on the forecasting of human activity, and also on generative models for generating controllable images
+%\item Designed and implemented a framework for multi-person future forecasting and applied it on complex sports forecasting
+%%  \begin{itemize}%
+%%  \item Sub-logro (a);
+%%  \item Sub-logro (b), con sub-sub-logros (¡evite hacer esto!);
+%%    \begin{itemize}
+%%    \item Sub-sub-logro i;
+%%    \item Sub-sub-logro ii;
+%%    \item Sub-sub-logro iii;
+%%    \end{itemize}
+%%  \item Sub-logro (c);
+%%  \end{itemize}
+%\item Extracted pose sequences for \textit{Volleyball Dataset}, which is a common dataset for group activity recognition
+%\end{itemize}
+}
+
+\cventry{Sept 2017-}{Research Assistant}{\newline Big Data Research Project}{Simon Fraser University}{Advisor: \href{https://sfucloud.ca/ryan/index.php/about/}{Prof.Ryan Shea}}
+{Research on distributed computing system integrated with computer vision%
+%\begin{itemize}%
+%\item Designed a distributed and general-case visual computing system for large-scale line-rate video processing based on Spark Streaming, FFMPEG, and OpenCV
+%\item Implemented and deployed the proposed visual computing system on SFU Cloud
+%% \item Analyzed the efficiency and energy performance of proposed system
+%\item Applied our scalable system to real-time vehicle monitoring taking use of SSD detector, which monitors cars and buses entering SFU Burnaby campus 
+%\end{itemize}
+}
+
+
+
 
 \section{Honours and Awards}
 \cventry{2017}{Meritorious Prize}
@@ -112,10 +146,12 @@ Rendering}
 {}
 {}
 {
-\begin{itemize}
-\item Top 7\% in all participants of the competition
-\item Implemented a Cellular Automata for simulating and analyzing highway traffic flow
-\end{itemize}}
+Top 7\% in all participants of the competition
+}
+%\begin{itemize}
+
+%\item Implemented a Cellular Automata for simulating and analyzing highway traffic flow
+%\end{itemize}}
 
 \cventry{2017}{First Class Entrance Scholarship}
 {Simon Fraser University}
@@ -128,6 +164,14 @@ Rendering}
 {}
 {}
 {The scholarship rewards the top 5\% student according to academic behavior}
+
+
+%\section{Skills}
+%\cvitem{-}{Solid programming skills in \textbf{C/C++}, \textbf{Python} with rich project experience}
+%\cvitem{-}{Solid programming skills in \textbf{C/C++}, \textbf{Python} with rich project experience}
+%\cvitem{-}{Deep interest in computer vision and distributed computing, familiar with deep learning frameworks \textbf{Tensorflow}, \textbf{Pytorch} and distributed frameworks \textbf{Hadoop}, \textbf{Spark}}
+%\cvitem{-}{Rich experience with common tools including \textbf{Git}, \textbf{Latex}, \textbf{Matlab}, etc.}
+
 
 \section{Selected Projects}
 

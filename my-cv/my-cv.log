@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2018 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 OCT 2018 02:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -988,32 +988,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 53.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 88.
+
+Package hyperref Warning: Suppressing link with empty target on input line 70.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 78.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 86.
+
+
+Package hyperref Warning: Suppressing link with empty target on input line 96.
+
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 141.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 185.
 
 No file my-cv.bbl.
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./my-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `my-cv.out' has not changed.
-(rerunfilecheck)             Checksum: EDF162D38DA41147CDAB59BDE27DAB00;761.
+(rerunfilecheck)             Checksum: 313AE00F93B042E3B5B9683AEC0D42F8;673.
  ) 
 Here is how much of TeX's memory you used:
- 28172 strings out of 493014
- 522757 string characters out of 6133351
- 582604 words of memory out of 5000000
- 31292 multiletter control sequences out of 15000+600000
- 54744 words of font info for 67 fonts, out of 8000000 for 9000
+ 28162 strings out of 493014
+ 522622 string characters out of 6133351
+ 582411 words of memory out of 5000000
+ 31289 multiletter control sequences out of 15000+600000
+ 51636 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,58p,10357b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,58p,10357b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-d
@@ -1022,10 +1032,10 @@ type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/lm/lmsso10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
 msso12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/marvosym/marv
 osym.pfb>
-Output written on my-cv.pdf (2 pages, 164339 bytes).
+Output written on my-cv.pdf (2 pages, 162227 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 17469 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 17461 words of extra memory for PDF output out of 20736 (max. 10000000)
 
